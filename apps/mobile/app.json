@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "우리 아이 동화책",
+    "slug": "storybook",
+    "scheme": "storybook",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#FAF7F0"
+    },
+    "plugins": ["expo-router"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.storybook.app"
+    },
+    "android": {
+      "package": "com.storybook.app"
+    }
+  }
+}

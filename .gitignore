@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.expo/
+.turbo/
+.env
+*.log
+.DS_Store
+apps/api/storage/
+*.bak
+.fuse_hidden*
+package.json.sdk51bak

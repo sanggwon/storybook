@@ -1,0 +1,20 @@
+{
+  "name": "storybook",
+  "private": true,
+  "packageManager": "pnpm@9.7.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "infra:up": "docker compose up -d",
+    "infra:down": "docker compose down",
+    "db:push": "pnpm --filter @storybook/api db:push",
+    "api": "pnpm --filter @storybook/api dev",
+    "worker": "pnpm --filter @storybook/api worker",
+    "app": "pnpm --filter @storybook/mobile dev",
+    "app:tunnel": "pnpm --filter @storybook/mobile dev:tunnel"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "~5.9.2"
+  }
+}
